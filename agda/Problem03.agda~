@@ -1,0 +1,5 @@
+open import CS242Lib
+open import Naturals
+
+leq? : (n m : ℕ) → Dec (Leq n m)
+leq? n m = {!!}
